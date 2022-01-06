@@ -1,0 +1,29 @@
+:root{
+    --grama: #E50914;
+    --fogo: #141414;
+    --normal: #113311;
+    --voador: #119999;
+    --eletrico: #333300;
+    --agua: #0000ff;
+    
+}
+
+.card{
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: 200px 220px 200px 220px 200px 220px;
+}
+
+
+.cardPokemon{
+    width: 200px;
+    height: 170px;
+    margin: 0 auto 5px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
