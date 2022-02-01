@@ -1,29 +1,44 @@
-:root{
-    --grama: #E50914;
-    --fogo: #141414;
-    --normal: #113311;
-    --voador: #119999;
-    --eletrico: #333300;
-    --agua: #0000ff;
-    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #c2c2c2;
 }
 
 .card{
-    margin-left: 30px;
-    display: grid;
-    grid-template-columns: 200px 220px 200px 220px 200px 220px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-
-.cardPokemon{
-    width: 200px;
-    height: 170px;
-    margin: 0 auto 5px;
-    text-align: center;
-    align-items: center;
+.card div{
     border: 1px solid black;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 130px;
+    margin: 10px;
+    
     border-radius: 10px;
+    box-shadow: 0 0 4px 0 black;
+   
+    cursor: pointer;
+}
+
+.cardPokemon h3 {
+    font-weight: 300;
+    font-family:  Helvetica, sans-serif, Arial;
+}
+
+.cardPokemon img{
+    height: 70px;
+    margin: 0 0 10px 0;
 }
 
